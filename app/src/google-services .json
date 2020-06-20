@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "439174403605",
+    "firebase_url": "https://skysoftlk-ca894.firebaseio.com",
+    "project_id": "skysoftlk-ca894",
+    "storage_bucket": "skysoftlk-ca894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439174403605:android:21965b809d85f1f31de01c",
+        "android_client_info": {
+          "package_name": "com.kavinduyasintha.cocrealtipsandtrick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439174403605-e7p1n7pg6tdleqq3ag88pdp6pjhlb82t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kavinduyasintha.cocrealtipsandtrick",
+            "certificate_hash": "71dda2eac66b2c3e0fe096bc82f4ddd308eb336b"
+          }
+        },
+        {
+          "client_id": "439174403605-mjk3fbc4cuaac9dor4run2ei5k3e3lbt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDzCZ0klx-cBQy8TEdOKcxR85-S7yG-4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439174403605-mjk3fbc4cuaac9dor4run2ei5k3e3lbt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

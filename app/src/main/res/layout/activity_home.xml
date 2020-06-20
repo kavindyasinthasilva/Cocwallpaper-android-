@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:background="#fff"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:background="#fff">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar"
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:background="#fff"
+
+
+
+
+
+            android:theme="?attr/actionBarTheme"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+
+
+
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/textView"
+
+            android:layout_width="283dp"
+
+            android:layout_height="45dp"
+
+            android:layout_marginStart="16dp"
+
+            android:layout_marginTop="24dp"
+
+
+            android:text="Welocme WallHub  "
+            android:textColor="#000000"
+
+
+            android:textSize="30sp"
+
+            android:textStyle="bold"
+
+
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+
+
+        <TextView
+
+            android:id="@+id/textView2"
+
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+
+            android:text="Powed by SkySoFTlk"
+            android:textColor="#000000"
+
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageView"
+
+
+            app:layout_constraintHorizontal_bias="0.0"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+        <ImageView
+
+            android:id="@+id/imageView"
+
+            android:layout_width="0dp"
+
+            android:layout_height="160dp"
+
+            android:layout_marginEnd="16dp"
+
+            android:layout_marginRight="16dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintStart_toEndOf="@+id/textView"
+
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+
+            app:srcCompat="@drawable/nu"
+            />
+        <LinearLayout
+
+            android:id="@+id/linearLayout"
+
+            android:layout_width="0dp"
+
+            android:layout_height="175dp"
+
+            android:orientation="horizontal"
+
+            android:padding="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+                android:background="#4682b4"
+
+                android:layout_weight="1">
+
+                <RelativeLayout
+
+                    android:id="@+id/click1"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:background="#fff" />
+
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    ads:adSize="MEDIUM_RECTANGLE"
+                    android:layout_gravity="center"
+                    ads:adUnitId="ca-app-pub-4219956547028494/5567854700"></com.google.android.gms.ads.AdView>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/linearLayout2"
+
+            android:layout_width="0dp"
+
+            android:layout_height="175dp"
+
+            android:orientation="horizontal"
+
+            android:padding="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+
+                android:layout_weight="1">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="161dp"
+                    android:background="@drawable/b9"
+
+                    android:text="Coc Wallpapers"
+                    android:textAlignment="center"
+                    android:textColor="#ffff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="0dp"
+
+            android:layout_height="175dp"
+
+            android:orientation="horizontal"
+
+            android:padding="10dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.0"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+
+                android:layout_margin="10dp"
+
+                android:layout_weight="1">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="171dp"
+                    android:background="@drawable/d1"
+                    android:text="Drogon Wallpapers"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+
+                    />
+
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

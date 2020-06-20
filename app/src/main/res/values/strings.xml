@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">skysilva</string>
+    <string name="app_name">CocRealTipsandTrick</string>
+
+    <string name="admob_showIntersitial_ad_unit_id">ca-app-pub-4219956547028494/7152415020</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4219956547028494/5567854700</string>
+
 </resources>

@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COC Wallpapers"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+
+                />
+
+            <ImageView
+                android:layout_width="435dp"
+                android:layout_height="232dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w1"
+
+                />
+
+            <Button
+                android:id="@+id/w1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="262dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/wl2" />
+
+            <Button
+                android:id="@+id/w2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w2" />
+
+            <Button
+                android:id="@+id/w3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set Wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="236dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w6" />
+
+
+            <Button
+                android:id="@+id/w4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set Wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w8" />
+
+            <Button
+                android:id="@+id/w8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                tools:ignore="DuplicateIds" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="387dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w9" />
+
+            <Button
+                android:id="@+id/w9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="223dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w10" />
+
+            <Button
+                android:id="@+id/w10"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="set wallpaper"
+                android:textAlignment="center"
+                android:textColor="#fff"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="233dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w11" />
+
+
+            <Button
+                android:id="@+id/w11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="268dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w12" />
+
+
+            <Button
+                android:id="@+id/w12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w13" />
+
+
+            <Button
+                android:id="@+id/w13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaper"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="702dp"
+                android:layout_marginTop="30dp"
+                android:background="#c1c1c1"
+                android:src="@drawable/w14" />
+
+
+            <Button
+                android:id="@+id/w14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="set wallpaer"
+                android:background="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+
+                />
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="LARGE_BANNER"
+                android:layout_gravity="center"
+                ads:adUnitId="ca-app-pub-4219956547028494/5567854700"></com.google.android.gms.ads.AdView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
