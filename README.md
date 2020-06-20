@@ -2,8 +2,8 @@
 
 ![Image](https://github.com/kavindyasinthasilva/GravitySl/blob/master/Images/w.png)
 
-This is A World famouse Game and Movies Wallpaper app. you can find this more information .![Kavinduyasintha.tech](http://www.kavinduyasintha.tech/).
-This repo for android developers and you can add more vsc .Thank you....... contribute  (fork)...................... 
+This is A  best Game and Movies Wallpaper app. you can find this more information .![Kavinduyasintha.tech](http://www.kavinduyasintha.tech/).
+This repo for android developers and you can add more vsc .Thank you. contribute  (fork)
 
 ## Contributing
 
@@ -68,4 +68,4 @@ Reach out to me at one of the following places!
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 - **[MIT license]()**
-- Copyright 2015 © <a href="http://kavinduyasintha.tech" target="_blank">kavinduyasintha</a>.
+- Copyright 2020 © <a href="http://kavinduyasintha.tech" target="_blank">kavinduyasintha</a>.
