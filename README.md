@@ -10,8 +10,6 @@ This repo for android developers and you can add more vsc .Thank you. contribute
 
 > If your `README` has a lot of info, section headers might be nice.
 
-- [Installation](#installation)
-- [Features](#features)
 - [Contributing](#contributing)
 - [Team](#team)
 - [FAQ](#faq)
