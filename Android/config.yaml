@@ -1,0 +1,51 @@
+storage: /verdaccio/storage
+
+publish:
+  allow_offline: true
+
+auth:
+  htpasswd:
+    file: /verdaccio/conf/htpasswd
+    
+security:
+  api:
+    jwt:
+      sign:
+        expiresIn: 60d
+        notBefore: 1
+  web:
+    sign:
+      expiresIn: 7d
+
+# a list of other known repositories we can talk to
+uplinks:
+
+# a custom UI
+web:
+  enable: true
+  title: My Verdaccio
+  logo: /logo.png
+  primary_color: "#5427e8"
+  gravatar: false
+  sort_packages: desc
+
+packages:
+  '@jota/*':
+      access: $all
+      publish: $all
+
+  '@*/*':
+    # scoped packages
+    access: $all
+    publish: $all
+
+  '**':
+    access: $all
+    publish: "$authenticated"
+
+middlewares:
+  audit:
+    enabled: true
+
+logs:
+  - {type: stdout, format: pretty, level: trace}

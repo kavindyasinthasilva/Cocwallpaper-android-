@@ -1,0 +1,24 @@
+{
+  "name": "@kavindyasinthasilva/server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kavindyasinthasilva/Cocwallpaper-android-.git",
+    "directory": "android/"
+  },
+  "keywords": [],
+  "author": "kavindyasinthasilva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavindyasinthasilva/Cocwallpaper-android-.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kavindyasinthasilva"
+  },
+  "homepage": "https://github.com/kavindyasinthasilva/Cocwallpaper-android-.git"
+}
