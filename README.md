@@ -4,6 +4,23 @@
 
 This is A  best Game and Movies Wallpaper app. you can find this more information .![Kavinduyasintha.tech](http://www.kavinduyasintha.tech/).
 This repo for android developers and you can add more vsc .Thank you. contribute  (fork)
+---
+
+## Table of Contents (Optional)
+
+> If your `README` has a lot of info, section headers might be nice.
+
+- [Installation](#installation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license)
+
+
+---
+
 
 ## Contributing
 
