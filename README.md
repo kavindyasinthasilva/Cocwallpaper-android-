@@ -57,7 +57,7 @@ This repo for android developers and you can add more vsc .Thank you. contribute
 - **How do I do *specifically* so and so?**
     - No problem! Just do this.
     Email-skysilva1999@gmai.com
-    skyilva@kavinduyasintha.tech
+    -skyilva@kavinduyasintha.tech
 
 ---
 
